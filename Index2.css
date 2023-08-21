@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    text-decoration: none
+}
+
+/* ===BODY=== */
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55vh;
+    padding: 2em 0;
+    background-image: linear-gradient(rgba(37, 11, 239, 0.707), rgba(45, 6, 103, 0.707));
+}
+
+.body img{
+    padding: 0.5em;
+    background-color: skyblue;
+    border-radius: 90px;
+    box-shadow: 5px 5px 9px skyblue;
+}
+
+.body h2{
+    padding: 2%;
+    font-size: 2em;
+    color: skyblue;
+    text-shadow: 1px 1px 3px;
+}
+
+.body h3{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* ===HEADER=== */
+
+header{
+    background-color: blue;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-flex;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 0.4em;
+    justify-content: space-around;
+}
+
+header ul li a{
+    color: #fff;
+    text-shadow: 1px 1px 6px;
+}
+
+header ul li a:hover{
+    color: skyblue;
+}
+
+/* ===BODY1=== */
+
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0;
+    background-image: linear-gradient(rgba(162, 195, 226, 0.6), rgba(9,39,23,0.6) );
+}
+
+.body1 img{
+    background-color: skyblue;
+    padding: 0.4em;
+    border-radius: 9px;
+    box-shadow: 3px 3px 8px;
+}
+
+.body1 h3{
+    font-size: 1.2em;
+    padding: 0.4em 0;
+}
+
+.body1 h2{
+    color: blue;
+}
+
+.body1 p{
+    width: 90vw;
+    /* font-weight: bold; */
+    text-align: center;
+}
